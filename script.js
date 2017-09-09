@@ -20,10 +20,10 @@ startGame();
 function startGame() {
     document.querySelector('.endgame').style.display = "block"
     ORIGINAL_BOARD = Array.from(Array(9).keys())
-    for (var x = 0; x < cells.length; x++) {
-        cells[x].innerText = ''
-        cells[x].style.removeProperty('background-color')
-        cells[x].addEventListener('click', turnClick, false)
+    for (var x = 0; x < CELLS.length; x++) {
+        CELLS[x].innerText = ''
+        CELLS[x].style.removeProperty('background-color')
+        CELLS[x].addEventListener('click', turnClick, false)
     }
 }
 
