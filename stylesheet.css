@@ -8,6 +8,41 @@ html, body {
     padding: 0;
 }
 
+.endgame {
+    max-width: 300px;
+    height: auto;
+    padding: 6px 64px;
+    box-sizing: border-box;
+    color: white;
+    font-size: 2.3rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin: 2px auto;
+    text-align: center;
+}
+
+.option-table-resume {
+    display: none;
+}
+
+.game-app {
+    width: 400px;
+    height: 400px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    vertical-align: middle;
+
+    border-radius: 3px;
+    background-color: rgba(245,255,245, 0.2);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 td {
     width: 100px;
     height: 100px;

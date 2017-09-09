@@ -73,6 +73,7 @@ function GAME_OVER(GAME_WON) {
 // AI
 function declareWinner(who) {
     document.querySelector('.endgame').style.display = "block"
+    document.querySelector('.endgame').style.backgroundColor = "#00CC58"
     document.querySelector('.endgame .text').innerText = who
 }
 
