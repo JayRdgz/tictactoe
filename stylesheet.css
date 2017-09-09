@@ -1,0 +1,4 @@
+:root {
+    --m-bg: #f0f0f0;
+    background-color: var(--m-bg);
+}
